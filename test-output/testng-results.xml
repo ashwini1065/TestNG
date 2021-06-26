@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2177" started-at="2021-06-20T06:39:29 UTC" finished-at="2021-06-20T06:39:31 UTC">
+  <suite name="Suite" duration-ms="6947" started-at="2021-06-26T06:06:34 UTC" finished-at="2021-06-26T06:06:41 UTC">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2177" started-at="2021-06-20T06:39:29 UTC" finished-at="2021-06-20T06:39:31 UTC">
-      <class name="test.swaglabs">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.swaglabs@1b68ddbd]" name="setup" is-config="true" duration-ms="1232" started-at="2021-06-20T06:39:29 UTC" finished-at="2021-06-20T06:39:30 UTC">
+    <test name="application" duration-ms="6947" started-at="2021-06-26T06:06:34 UTC" finished-at="2021-06-26T06:06:41 UTC">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@305fd85d]" name="setup" is-config="true" duration-ms="2842" started-at="2021-06-26T06:06:34 UTC" finished-at="2021-06-26T06:06:37 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest1()[pri:0, instance:test.swaglabs@1b68ddbd]" name="LoginTest1" duration-ms="409" started-at="2021-06-20T06:39:30 UTC" finished-at="2021-06-20T06:39:30 UTC">
+        <test-method status="PASS" signature="LoginTest2()[pri:0, instance:test.LoginTest@305fd85d]" name="LoginTest2" duration-ms="3666" started-at="2021-06-26T06:06:37 UTC" finished-at="2021-06-26T06:06:40 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest1 -->
-        <test-method status="PASS" signature="addtocart()[pri:0, instance:test.swaglabs@1b68ddbd]" name="addtocart" is-config="true" duration-ms="404" started-at="2021-06-20T06:39:30 UTC" finished-at="2021-06-20T06:39:31 UTC">
+        </test-method> <!-- LoginTest2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:test.LoginTest@305fd85d]" name="aftermethod" is-config="true" duration-ms="379" started-at="2021-06-26T06:06:40 UTC" finished-at="2021-06-26T06:06:41 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addtocart -->
-        <test-method status="PASS" signature="close()[pri:0, instance:test.swaglabs@1b68ddbd]" name="close" is-config="true" duration-ms="96" started-at="2021-06-20T06:39:31 UTC" finished-at="2021-06-20T06:39:31 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- test.swaglabs -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- aftermethod -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- application -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -20,7 +20,7 @@ public class swaglabs {
 			
 	driver = new ChromeDriver();
 		
-	driver.get("https://www.saucedemo.com/");
+   driver.get("https://www.saucedemo.com/");
 		
 	driver.manage().window().maximize();
 		
